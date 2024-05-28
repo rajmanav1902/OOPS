@@ -26,6 +26,11 @@ print(counter2.get_count())  # Output: 2 (shared value)
 #Modifying a class variable through one instance affects the value for all instances.
 
 #Difference between class and instance variables?
+'''
+1.Each object has its own copy of isntance variables but there is only one copy of class variables which is shared 
+by all objects
+2. Any modifications made to isntance variables by an object will not affect the values in other object.This
+ is not the case with class variables'''
 class Counter:
   # Class variable
   count = 0
