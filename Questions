@@ -1,0 +1,41 @@
+Part 1: Basic Concepts
+
+What is Object-Oriented Programming (OOP)?
+Explain the difference between Procedural Programming and OOP.
+What are the four pillars of OOP? Briefly explain each one (Encapsulation, Abstraction, Inheritance, Polymorphism).
+How do you define a class in Python?
+What is an object in Python? How is an object created from a class?
+What are attributes and methods in a class? How do they differ?
+Explain the concept of a constructor in Python. (Optional: How does it differ from other languages like Java?)
+What is the purpose of the self parameter in Python methods?
+Differentiate between public and private attributes/methods in Python. (Although Python doesn't have strict enforcement, discuss conventions)
+Write a simple Python program demonstrating inheritance.
+
+Part 2: Advanced Concepts
+Explain the different types of inheritance in Python (Single, Multilevel, Hierarchical).
+What is method overriding? Provide an example.
+What is method overloading in Python? Explain why it's not directly supported.
+Discuss the concept of polymorphism in Python. How can you achieve it using methods?
+What are abstract classes and interfaces in Python? When would you use them?
+Explain the concept of data hiding and its importance in OOP.
+What are the benefits of using OOP in Python?
+What are some real-world scenarios where OOP principles would be beneficial?
+How can you test and debug code written using OOP principles?
+Describe your experience using OOP in a previous project (if applicable). Discuss any challenges you faced and how you overcame them.
+
+Part3:Implementation
+1.Design a class Animal with attributes like name, species, and a method make_sound() that prints a generic sound (e.g., "Animal Noise"). 
+Create subclasses Dog and Cat that inherit from Animal and override the make_sound() method to print specific sounds ("Woof" and "Meow"). 
+Instantiate objects of these classes and call their make_sound() methods.
+2.Design a class Shape with an abstract method calculate_area() that raises a NotImplementedError. 
+Create subclasses Square and Circle inheriting from Shape and implementing the calculate_area() method to calculate the area based on their respective properties 
+(side length and radius). Write a function that takes a Shape object as input and calls its calculate_area() method, handling the potential NotImplementedError 
+gracefully.
+3.Design a class BankAccount with attributes like account_number, balance, and methods for deposit, withdraw (with overdraft protection), and get_balance. 
+Implement proper validations and error handling within the methods. Create an object of BankAccount and demonstrate its functionalities.
+4.Simulate a simple inventory system. 
+Design a class Product with attributes like name, price, and quantity. 
+Implement methods to add, remove, and update product stock. Create another class Cart that can hold Product objects and has methods to add items to the cart, 
+remove them, and calculate the total cost.
+5.Design a class Employee with attributes like name, department, and salary. Implement a method to calculate a bonus based on a company policy (e.g., 10% of salary). 
+Create a subclass Manager that inherits from Employee and has an additional attribute team_size and overrides the calculate_bonus() method to provide a higher bonus based on team size.
